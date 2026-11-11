@@ -1,0 +1,33 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+nav {
+    background: black;
+    color: white;
+    padding: 18px;
+    position: sticky;
+    top: 0;
+}
+h2 {
+    text-align: center;
+}
+.card {
+    position: relative;
+    width: 300px;
+    margin: 30px auto;
+}
+.card img {
+    width: 100%;
+    display: block;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+}
