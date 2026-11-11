@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+header {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background: lightgray;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+main div {
+    background:plum;
+    padding: 50px 10px;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}

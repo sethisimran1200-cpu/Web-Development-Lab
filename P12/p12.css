@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 120px 120px;
+    gap: 15px;
+    padding: 20px;
+}
+.grid div {
+    background: lavender;
+    padding: 40px 5px;
+}
+.large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.wide {
+    grid-column: span 4;
+}
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .wide {
+        grid-column: span 2;
+    }
+}

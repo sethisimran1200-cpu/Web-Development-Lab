@@ -1,0 +1,29 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+header, footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    text-align: center;
+    padding: 100px 20px;
+}
+footer {
+    justify-content: center;
+}

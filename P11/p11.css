@@ -1,0 +1,21 @@
+
+body {
+    font-family: Arial;
+    text-align: center;
+}
+.news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+.news div {
+    background: pink;
+    padding: 60px 10px;
+    font-size: 20px;
+}
+@media (max-width: 600px) {
+    .news {
+        grid-template-columns: 1fr;
+    }
+}
